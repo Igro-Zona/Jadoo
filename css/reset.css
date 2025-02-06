@@ -6,19 +6,58 @@ html {
 *::after,
 *::before {
   box-sizing: inherit;
-  font-family: 'Inter', serif;
+  font-family: 'Poppins', serif;
 }
 
 * {
+  font-size: 16px;
   margin: 0;
   padding: 0;
 }
 
-.inter-normal > {
-  font-family: 'Inter', serif;
+.montserrat-variable {
+  font-family: 'Montserrat', serif;
   font-optical-sizing: auto;
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: 'Poppins', serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: 'Poppins', serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: 'Poppins', serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: 'Poppins', serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.volkhov-bold {
+  font-family: 'Volkhov', serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.open-sans-variable {
+  font-family: 'Open Sans', serif;
+  font-optical-sizing: auto;
+  font-weight: 300 800;
+  font-style: normal;
+  font-variation-settings: 'wdth' 100;
 }
 
 a {
@@ -29,7 +68,7 @@ a {
 
 a:focus,
 a:active {
-  color: white;
+  /* color: rgb(0, 0, 0); */
 }
 
 li {

@@ -3,17 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@300;400;600;700&family=Volkhov:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Jadoo Best Destinations around the world</title>
   </head>
   <body>
+    <!-- HEADER -->
     <header class="header">
       <div class="wrapper">
         <div class="header__container">
           <a class="header__logo" href="#!">
-            <img class="header__logo-thumb" src="" alt="" />
+            <img
+              class="header__logo-thumb"
+              width="115"
+              height="34"
+              src="./img/svg/Jadoo-logo.svg"
+              alt="Jadoo Best Destinations around the world"
+            />
           </a>
           <nav class="header__nav">
             <ul class="header__list">
@@ -41,6 +54,7 @@
       </div>
     </header>
     <main class="main">
+      <!-- HERO SECTION -->
       <section class="hero">
         <div class="wrapper">
           <div class="hero__container">
@@ -50,7 +64,7 @@
                   Best Destinations around the world
                 </p>
                 <h1 class="hero__title">
-                  Travel, enjoy and live a new and full life
+                  Travel, enjoy live a new and full life
                 </h1>
               </header>
               <article class="hero__article">
@@ -63,7 +77,7 @@
               <div class="hero__buttons">
                 <a class="hero__btn" href="#!">Find out more</a>
                 <button class="hero__btn-play">
-                  <img class="hero__btn-triangle" src="" alt="" />
+                  <div class="hero__btn-triangle"></div>
                 </button>
                 <p class="hero__buttons-text">Play Demo</p>
               </div>
@@ -71,97 +85,276 @@
             <picture class="hero__img">
               <source srcset="" />
               <source srcset="" />
-              <img class="hero__thumb" src="" srcset="" alt="" />
+              <img
+                class="hero__thumb"
+                src="./img/Traveller 1.png"
+                srcset=""
+                alt=""
+              />
             </picture>
           </div>
         </div>
       </section>
+      <!-- SERVICES SECTION -->
       <section class="services">
         <div class="wrapper">
           <header class="services__header">
-            <p class="services__text">CATEGORY</p>
-            <h2 class="services__ttle">We Offer Best Services</h2>
+            <p class="subtitle">CATEGORY</p>
+            <h2 class="title">We Offer Best Services</h2>
           </header>
           <div class="services__container">
-            <div class="services__item">
-              <picture class="services__img">
-                <source srcset="" />
-                <source srcset="" />
-                <img class="services__thumb" src="" srcset="" alt="" />
-              </picture>
-              <h3 class="services__item-title">Calculated Weather</h3>
-              <p class="services__item-text">
-                Built Wicket longer admire do barton vanity itself do in it.
-              </p>
+            <!-- ITEM 1 -->
+            <div class="services__inner">
+              <div class="services__item">
+                <picture class="services__img">
+                  <source srcset="" />
+                  <source srcset="" />
+                  <img
+                    class="services__thumb"
+                    src="./img/services-1.png"
+                    srcset=""
+                    alt="Calculated Weather"
+                  />
+                </picture>
+                <h3 class="services__item-title">Calculated Weather</h3>
+                <p class="services__item-text">
+                  Built Wicket longer admire do barton vanity itself do in it.
+                </p>
+              </div>
+              <div class="services__item-tab"></div>
             </div>
-            <div class="services__item">
-              <picture class="services__img">
-                <source srcset="" />
-                <source srcset="" />
-                <img class="services__thumb" src="" srcset="" alt="" />
-              </picture>
-              <h3 class="services__item-title">Best Flights</h3>
-              <p class="services__item-text">
-                Engrossed listening. Park gate sell they west hard for the.
-              </p>
+            <!-- ITEM 2 -->
+            <div class="services__inner">
+              <div class="services__item">
+                <picture class="services__img services__img--special">
+                  <source srcset="" />
+                  <source srcset="" />
+                  <img
+                    class="services__thumb"
+                    width="166px"
+                    height="153px"
+                    src="./img/services-2.png"
+                    srcset=""
+                    alt="Best Flights"
+                  />
+                </picture>
+                <h3 class="services__item-title">Best Flights</h3>
+                <p class="services__item-text">
+                  Engrossed listening. Park gate sell they west hard for the.
+                </p>
+              </div>
+              <div class="services__item-tab"></div>
             </div>
-            <div class="services__item">
-              <picture class="services__img">
-                <source srcset="" />
-                <source srcset="" />
-                <img class="services__thumb" src="" srcset="" alt="" />
-              </picture>
-              <h3 class="services__item-title">Local Events</h3>
-              <p class="services__item-text">
-                Barton vanity itself do in it. Preferd to men it engrossed
-                listening.
-              </p>
+            <!-- ITEM 3 -->
+            <div class="services__inner">
+              <div class="services__item">
+                <picture class="services__img">
+                  <source srcset="" />
+                  <source srcset="" />
+                  <img
+                    class="services__thumb"
+                    src="./img/services-3.png"
+                    srcset=""
+                    alt="Local Events"
+                  />
+                </picture>
+                <h3 class="services__item-title">Local Events</h3>
+                <p class="services__item-text">
+                  Barton vanity itself do in it. Preferd to men it engrossed
+                  listening.
+                </p>
+              </div>
+              <div class="services__item-tab"></div>
             </div>
-            <div class="services__item">
-              <picture class="services__img">
-                <source srcset="" />
-                <source srcset="" />
-                <img class="services__thumb" src="" srcset="" alt="" />
-              </picture>
-              <h3 class="services__item-title">Customization</h3>
-              <p class="services__item-text">
-                We deliver outsourced aviation services for military customers
-              </p>
+            <!-- ITEM 4 -->
+            <div class="services__inner">
+              <div class="services__item">
+                <picture class="services__img">
+                  <source srcset="" />
+                  <source srcset="" />
+                  <img
+                    class="services__thumb"
+                    src="./img/services-4.png"
+                    srcset=""
+                    alt="Customization"
+                  />
+                </picture>
+                <h3 class="services__item-title">Customization</h3>
+                <p class="services__item-text">
+                  We deliver outsourced aviation services for military customers
+                </p>
+              </div>
+              <div class="services__item-tab"></div>
             </div>
           </div>
         </div>
       </section>
+      <!-- PLACES SECTION -->
       <section class="places">
         <div class="wrapper">
           <header class="places__header">
-            <p class="places__text">Top Selling</p>
-            <h2 class="places__ttle">Top Destinations</h2>
+            <p class="subtitle">Top Selling</p>
+            <h2 class="title">Top Destinations</h2>
           </header>
           <div class="places__container">
-            <div class="places__item">
+            <!-- ITEM 1 -->
+            <a class="places__item" href="#!">
               <picture class="places__img">
                 <source srcset="" />
                 <source srcset="" />
                 <img class="places__thumb" src="" srcset="" alt="" />
               </picture>
-            </div>
-            <div class="places__item">
+              <div class="places__item-container">
+                <h3 class="places__item-title">Rome, Italty</h3>
+                <p class="places__item-price">$5,42k</p>
+              </div>
+              <p class="places__item-time">10 Days Trip</p>
+            </a>
+            <!-- ITEM 2 -->
+            <a class="places__item" href="#!">
               <picture class="places__img">
                 <source srcset="" />
                 <source srcset="" />
                 <img class="places__thumb" src="" srcset="" alt="" />
               </picture>
-            </div>
-            <div class="places__item">
+              <div class="places__item-container">
+                <h3 class="places__item-title">London, UK</h3>
+                <p class="places__item-price">$4.2k</p>
+              </div>
+              <p class="places__item-time">12 Days Trip</p>
+            </a>
+            <!-- ITEM 3 -->
+            <a class="places__item" href="#!">
               <picture class="places__img">
                 <source srcset="" />
                 <source srcset="" />
                 <img class="places__thumb" src="" srcset="" alt="" />
               </picture>
+              <div class="places__item-container">
+                <h3 class="places__item-title">Full Europe</h3>
+                <p class="places__item-price">$15k</p>
+              </div>
+              <p class="places__item-time">28 Days Trip</p>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- GUIDE SECTION -->
+      <section class="guide">
+        <div class="wrapper">
+          <div class="guide__container">
+            <div class="guide__inner">
+              <header class="guide__header">
+                <p class="subtitle">Easy and Fast</p>
+                <h2 class="title">Book your next trip in 3 easy steps</h2>
+              </header>
+              <!-- ITEM 1 -->
+              <article class="guide__article">
+                <img class="guide__article-img" src="" alt="" />
+                <div class="guide__article-body">
+                  <h3 class="guide__article-title">Choose Destination</h3>
+                  <p class="guide__article-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Urna, tortor tempus.
+                  </p>
+                </div>
+              </article>
+              <!-- ITEM 2 -->
+              <article class="guide__article">
+                <img class="guide__article-img" src="" alt="" />
+                <div class="guide__article-body">
+                  <h3 class="guide__article-title">Make Payment</h3>
+                  <p class="guide__article-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Urna, tortor tempus.
+                  </p>
+                </div>
+              </article>
+              <!-- ITEM 3 -->
+              <article class="guide__article">
+                <img class="guide__article-img" src="" alt="" />
+                <div class="guide__article-body">
+                  <h3 class="guide__article-title">
+                    Reach Airport on Selected Date
+                  </h3>
+                  <p class="guide__article-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Urna, tortor tempus.
+                  </p>
+                </div>
+              </article>
             </div>
+            <div class="future-hink">in prog..</div>
+          </div>
+        </div>
+      </section>
+      <!-- TESTIMONIALS SECTION -->
+      <section class="testimonials">
+        <div class="wrapper">
+          <div class="testimonials__container">
+            <div class="testimonials__inner">
+              <header class="testimonials__header">
+                <p class="subtitle">Testimonials</p>
+                <h2 class="title">What people say about Us.</h2>
+              </header>
+              <div class="testimonials__points">
+                <div class="testimonials__point"></div>
+                <div class="testimonials__point"></div>
+                <div class="testimonials__point"></div>
+              </div>
+            </div>
+            <div class="in-progress">prog</div>
+          </div>
+        </div>
+      </section>
+      <section class="companies">
+        <div class="wrapper">
+          <div class="companies__container">
+            <button class="companies__item">
+              <img class="companies__logo" src="" alt="" />
+            </button>
+            <button class="companies__item">
+              <img class="companies__logo" src="" alt="" />
+            </button>
+            <button class="companies__item">
+              <img class="companies__logo" src="" alt="" />
+            </button>
+            <button class="companies__item">
+              <img class="companies__logo" src="" alt="" />
+            </button>
+            <button class="companies__item">
+              <img class="companies__logo" src="" alt="" />
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- SUBSCRIBE SECTION -->
+      <section class="subscribe">
+        <div class="wrapper">
+          <div class="subscribe__container">
+            <header class="subscribe__header">
+              <h2 class="subscribe__title">
+                Subscribe to get information, latest news and other interesting
+                offers about Jadoo
+              </h2>
+            </header>
+            <form class="subscribe__form" action="">
+              <input
+                class="subscribe__email"
+                type="email"
+                placeholder="Your email"
+              />
+              <button class="subscribe__btn" type="submit">Subscribe</button>
+            </form>
           </div>
         </div>
       </section>
     </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="wrapper">
+        <div class="footer__container"></div>
+      </div>
+    </footer>
   </body>
 </html>
