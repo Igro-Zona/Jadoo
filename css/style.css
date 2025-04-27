@@ -210,7 +210,7 @@ body {
   padding: 149px 42px 45px;
   border-radius: 36px;
   text-align: center;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 .services__item-tab {
@@ -256,6 +256,7 @@ body {
 }
 
 .services__item:hover {
+  background-color: #f0f0f0;
   box-shadow: 0px 1.85px 3.15px 0px #00000001;
 
   box-shadow: 0px 8.15px 6.52px 0px #00000002;
@@ -274,3 +275,236 @@ body {
 }
 
 /* SERVICES STYLES END */
+
+/* PLACES STYLES START */
+
+.places {
+  margin-bottom: 186px;
+}
+
+.places__header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.places__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.places__item {
+  position: relative;
+  width: 315px;
+  height: 457px;
+  border-radius: 24px;
+  box-shadow: 0px 1.85px 3.15px 0px #00000001;
+
+  box-shadow: 0px 8.15px 6.52px 0px #00000002;
+
+  box-shadow: 0px 20px 13px 0px #00000003;
+
+  box-shadow: 0px 38.52px 25.48px 0px #00000003;
+
+  box-shadow: 0px 64.81px 46.85px 0px #00000004;
+
+  box-shadow: 0px 100px 80px 0px #00000005;
+}
+
+.places__item:hover .places__thumb {
+  transform: scale(1.1);
+}
+
+.places__img {
+  width: 315px;
+  height: 457px;
+  overflow: hidden;
+  border-radius: 24px;
+}
+
+.places__thumb {
+  object-fit: cover;
+  width: 315px;
+  height: 457px;
+  transition: 0.3s;
+}
+
+.places__item-article {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 27px 25px 37.07px 20px;
+  background-color: white;
+  border-radius: 0 0 22px 22px;
+}
+
+.places__item-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 19px;
+}
+
+.places__item-title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22.41px;
+  color: #5e6282;
+}
+
+.places__item-price {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22.41px;
+  color: #5e6282;
+}
+
+.places__item-time {
+  line-height: 20px;
+  color: #5e6282;
+}
+
+.places__item-time::before {
+  margin-right: 14px;
+  align-self: start;
+  display: inline-block;
+  content: url(../img/place-cursor-icon.svg);
+  width: 20px;
+  height: 20px;
+}
+
+/* PLACES STYLES END */
+
+/* GUIDE STYLES START */
+
+.guide {
+  margin-bottom: 200px;
+}
+
+.guide__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.guide__inner {
+  max-width: 511px;
+}
+
+.guide__header {
+  margin-bottom: 31px;
+}
+
+.guide__articles {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.guide__article {
+  display: flex;
+  gap: 21px;
+  max-width: 395px;
+}
+
+.guide__article-img {
+  margin-top: 8px;
+  width: 47px;
+  height: 48px;
+}
+
+.guide__article-title {
+  font-weight: 700;
+  line-height: 19.92px;
+  color: #5e6282;
+  margin-bottom: 5px;
+}
+
+.guide__article-text {
+  line-height: 19.92px;
+  color: #5e6282;
+}
+
+/* GUIDE CARD STYLES START */
+
+.guide__card {
+  max-width: 370px;
+  max-height: 400;
+  border-radius: 26px;
+  background-color: white;
+  padding: 20px 25px;
+  box-shadow: 0px 1.85px 3.15px 0px #00000001;
+
+  box-shadow: 0px 8.15px 6.52px 0px #00000002;
+
+  box-shadow: 0px 20px 13px 0px #00000003;
+
+  box-shadow: 0px 38.52px 25.48px 0px #00000003;
+
+  box-shadow: 0px 64.81px 46.85px 0px #00000004;
+
+  box-shadow: 0px 100px 80px 0px #00000005;
+}
+
+.card__img {
+  max-width: 320px;
+  max-height: 160px;
+  border-radius: 26px;
+  overflow: hidden;
+  margin-bottom: 26px;
+}
+
+.card__thumb {
+  object-fit: cover;
+}
+
+.card__title {
+  font-size: 18px;
+  line-height: 22.41px;
+  letter-spacing: 1.5%;
+  color: #080809;
+  margin-bottom: 13px;
+}
+
+.card__info {
+  line-height: 19.92px;
+  color: #84829a;
+  margin-bottom: 21px;
+}
+
+.card__help {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 30px;
+}
+
+.card__help-item {
+  width: 36px;
+  height: 36px;
+}
+
+.card__review {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__people {
+  line-height: 19.92px;
+  color: #84829a;
+}
+
+.card__people::before {
+  margin-right: 15px;
+  align-self: start;
+  display: inline-block;
+  content: url(../img/svg/building-icon.svg);
+  width: 16px;
+  height: 16px;
+}
+
+.card__like {
+  width: 20px;
+  height: auto;
+}
+/* GUIDE CARD STYLES END */
+
+/* GUIDE STYLES END */
